@@ -32,35 +32,6 @@ This directory contains all the game assets used in **Starship Architect**, incl
 └── /shaders            # Shaders for advanced graphical effects
 ```
 
-## **Folder Descriptions**
-
-- **/images**: Contains all image assets used in the game.
-
-  - **/ui**: UI elements like buttons, icons, and backgrounds.
-  - **/sprites**: Game sprites and animations.
-    - **/characters**: Sprites for all game characters (crew members, NPCs).
-    - **/modules**: Sprites representing different ship modules.
-    - **/effects**: Visual effects such as explosions or animations.
-  - **/backgrounds**: Background images for various game scenes.
-  - **/misc**: Miscellaneous images, such as logos or placeholders.
-
-- **/sounds**: Contains all sound files.
-
-  - **/music**: Background music tracks for different game environments.
-  - **/effects**: Sound effects used in the game.
-  - **/voice**: Voice lines or sounds associated with characters or announcements.
-
-- **/fonts**: Custom fonts used throughout the game to maintain a consistent style.
-
-- **/videos**: Contains any video files used in the game, such as cutscenes or animations.
-
-- **/data**: Data files used for configuration and game content.
-
-  - **/json**: JSON files for game configuration and structured data.
-  - **/xml**: XML files for game configuration and structured data.
-
-- **/shaders**: Contains shader programs for special graphical effects.
-
 ## **Naming Conventions**
 
 - Use clear, descriptive names for all files. For example:

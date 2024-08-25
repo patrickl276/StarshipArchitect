@@ -80,6 +80,45 @@
 - **Visual Style**: A blend of sleek, high-tech designs with gritty, dystopian elements reminiscent of sci-fi classics like "Mass Effect," "Blade Runner," and "Ghost in the Shell."
 - **Audio Design**: A diverse soundscape ranging from synth-heavy tones to orchestral scores, reflecting different settings and moods within the game.
 
+## **Directory Structure Guide**
+
+```
+/starship-architect
+│
+├── /assets                 # Contains all game assets like images, sounds, and fonts
+│   ├── /images             # All game-related images
+│   │   ├── /ui             # UI elements like buttons, icons, etc.
+│   │   ├── /sprites        # Sprites for game characters and animations
+│   │   ├── /backgrounds    # Background images for various game scenes
+│   │   └── /misc           # Miscellaneous images (logos, placeholders, etc.)
+│   ├── /sounds             # Sound files for the game
+│   │   ├── /music          # Background music tracks
+│   │   ├── /effects        # Sound effects (button clicks, alarms, etc.)
+│   │   └── /voice          # Voice lines or character sounds
+│   ├── /fonts              # Custom fonts used throughout the game
+│   ├── /videos             # Cutscenes or animations (if any)
+│   ├── /data               # Data files for game configuration
+│   │   ├── /json           # JSON files for game data and settings
+│   │   └── /xml            # XML files for configuration and settings
+│   └── /shaders            # Shaders for advanced graphical effects
+│
+├── /src                    # Source code for the game
+│   ├── /core               # Core game logic and mechanics
+│   ├── /entities           # Game entities like ships, crew, and modules
+│   ├── /systems            # Game systems (AI, physics, etc.)
+│   └── /ui                 # User interface management and interactions
+│
+├── /public                 # Static files served by the web server
+│
+├── /test                   # Test files for automated testing
+│
+├── /build                  # Compiled and built files for distribution
+│
+├── package.json            # Project metadata and dependencies
+└── README.md               # Main project documentation
+
+```
+
 ## **How to Contribute**
 
 We welcome contributions from the community! Whether you're a developer, designer, or sci-fi enthusiast, there are many ways to get involved:
