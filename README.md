@@ -1,6 +1,6 @@
 # **Starship Architect**
 
-![Starship Architect Logo](assets/images/misc/StarshipArchitectLogo.webp)
+![Starship Architect Logo]<img src="assets/images/misc/StarshipArchitectLogo.webp" alt="Starship Architect Logo" width="300">
 
 ## **Overview**
 
