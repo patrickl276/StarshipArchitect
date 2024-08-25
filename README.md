@@ -1,93 +1,100 @@
-# Starship Architect
+# **Starship Architect**
 
+![Starship Architect Logo](assets/logo.png)
 
+## **Overview**
 
-## Getting started
+**Starship Architect** is a ship-building, construction, and management simulation game set in a futuristic, sci-fi universe. As a player, you are tasked with designing, building, and managing a starship that evolves from a small vessel into a massive generational ship capable of sustaining an entire civilization. The game blends strategy, resource management, and storytelling, offering a unique experience for fans of the sci-fi genre.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### **Genre**
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- City-building Game
+- Construction and Management Simulation
+- Strategy Game
 
-## Add your files
+### **Target Audience**
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- Sci-fi Enthusiasts
+- Strategy and Simulation Fans
+- Players who enjoy deep management and building mechanics
 
-```
-cd existing_repo
-git remote add origin https://git.cardiff.ac.uk/c0904111/starship-architect.git
-git branch -M main
-git push -uf origin main
-```
+## **Gameplay Features**
 
-## Integrate with your tools
+### **Core Mechanics**
 
-- [ ] [Set up project integrations](https://git.cardiff.ac.uk/c0904111/starship-architect/-/settings/integrations)
+1. **Resource Management**:
 
-## Collaborate with your team
+   - **Building Materials and Money**: Use resources and currency to construct ship facilities and upgrades.
+   - **Energy**: Generate power from reactors and other advanced technologies to sustain ship systems.
+   - **Crew**: Manage population growth, employment, and morale to ensure a thriving ship environment.
+   - **Research Points**: Earn research points to unlock new technologies and enhance ship capabilities.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+2. **Starship Building**:
 
-## Test and Deploy
+   - Design and expand your ship using a variety of building tiles such as habitats, commercial zones, and production facilities.
+   - Utilize advanced technologies to build essential ship components like engines, life support systems, healthcare facilities, and more.
 
-Use the built-in continuous integration in GitLab.
+3. **NPC (Non-Player Character) Management**:
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+   - Oversee the crew, each with unique roles like engineers, medical staff, and security personnel.
+   - Manage NPC behaviors and interactions to keep the ship operational and safe.
 
-***
+4. **Progression System**:
 
-# Editing this README
+   - Advance through different ship classes, from a small Shuttlecraft-class to a colossal Universe-class starship.
+   - Unlock new facilities, technologies, and challenges as you progress.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+5. **Dynamic Events and Challenges**:
+   - Face a variety of challenges such as resource scarcity, cosmic storms, alien encounters, and internal conflicts.
+   - Respond to dynamic events that test your strategic planning and decision-making skills.
 
-## Suggestions for a good README
+### **Secondary Mechanics**
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+- **Desirability and Reputation**: Manage factors like cleanliness, health, and security to improve the ship's desirability and attract more crew members.
+- **Ship Reputation**: Navigate the political landscape, making choices that affect your ship's standing as a diplomat or warmonger.
 
-## Name
-Choose a self-explaining name for your project.
+## **Development Goals and Roadmap**
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+### **Phase 1: Core Development**
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- Establish the core game loop and basic mechanics.
+- Implement the fundamental resource management system.
+- Develop initial ship-building features and NPC management.
+- Create a basic user interface with retro sci-fi terminal aesthetics.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+### **Phase 2: Expansion and Polish**
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+- Introduce advanced ship modules and technologies.
+- Implement dynamic events and complex challenge scenarios.
+- Enhance graphics with simple pixel art and animations.
+- Refine NPC behaviors and interactions for greater depth.
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+### **Phase 3: Late Game Content and Optimization**
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+- Develop the late-game content with massive ships and advanced facilities.
+- Optimize game performance for different platforms.
+- Conduct extensive testing and polish user experience.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## **Inspirations and Aesthetics**
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+- **Visual Style**: A blend of sleek, high-tech designs with gritty, dystopian elements reminiscent of sci-fi classics like "Mass Effect," "Blade Runner," and "Ghost in the Shell."
+- **Audio Design**: A diverse soundscape ranging from synth-heavy tones to orchestral scores, reflecting different settings and moods within the game.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+## **How to Contribute**
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+We welcome contributions from the community! Whether you're a developer, designer, or sci-fi enthusiast, there are many ways to get involved:
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+1. **Fork and Clone** the repository.
+2. **Check the Issues** tab for tasks and bugs to work on.
+3. **Submit Pull Requests** with your contributions.
+4. **Join Discussions** and share your ideas and feedback!
 
-## License
-For open source projects, say how it is licensed.
+## **Installation and Setup**
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+To set up the development environment:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd starship-architect
+   ```
