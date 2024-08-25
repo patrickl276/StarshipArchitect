@@ -4,6 +4,7 @@ This directory contains all the game assets used in **Starship Architect**, incl
 
 ## **Directory Structure**
 
+'''plaintext
 /assets
 │
 ├── /images # All game-related images
@@ -29,6 +30,7 @@ This directory contains all the game assets used in **Starship Architect**, incl
 │ └── /xml # XML files for configuration and settings
 │
 └── /shaders # Shaders for advanced graphical effects
+'''
 
 ## **Folder Descriptions**
 
